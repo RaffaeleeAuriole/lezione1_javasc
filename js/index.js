@@ -1,6 +1,6 @@
 let firstName = prompt("come ti chiami")
 
-while (firstname === null || firstname.trim() === ""){
+while (firstName === null || firstName.trim() === ""){
     firstName = prompt("devi inserire un nome. Come ti chiami?");
 }
 
@@ -94,7 +94,7 @@ else{
     alert("la risposta corretta era Giovanni Dilorenzo")
 }
 
-alert("complimenti hai ottenuto questo punteggio: " + i)    
+console.log("complimenti hai ottenuto questo punteggio: " + i); 
 
 
 
