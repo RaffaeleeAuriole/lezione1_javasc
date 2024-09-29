@@ -1,100 +1,90 @@
-let firstName = prompt("come ti chiami")
+let firstName = prompt("Come ti chiami?");
 
-while (firstName === null || firstName.trim() === ""){
-    firstName = prompt("devi inserire un nome. Come ti chiami?");
+while (firstName === null || firstName.trim() === "") {
+    firstName = prompt("Devi inserire un nome. Come ti chiami?");
 }
 
-alert("benvenuto " + firstName)
+alert("Benvenuto " + firstName);
 
-let i = 0;//punteggio iniziale
+let i = 0; // punteggio iniziale
 
-alert("attenzione! inserisci nome e cognome del calciatore mentre esegui il quiz")
+alert("Attenzione! Inserisci nome e cognome del calciatore mentre esegui il quiz");
 
-let risposta1= prompt("chi è il calciatore più forte al mondo?")
-while(risposta1 === null || risposta1.trim() === ""){
-    risposta1 = prompt("non puoi lasciare vuoto! chi è il calciatore più forte al mondo?")
+let risposta1 = prompt("Chi è il calciatore più forte al mondo?");
+while (risposta1 === null || risposta1.trim() === "") {
+    risposta1 = prompt("Non puoi lasciare vuoto! Chi è il calciatore più forte al mondo?");
 }
-if(risposta1.toLowerCase() === "Cristiano Ronaldo"){
+if (risposta1.toLowerCase() === "cristiano ronaldo") {
     i++;
-    alert("giusto, hai guadagnato un punto")
-}
-else{
-    alert("sbagliato, la risposta corretta era Ronaldo")
+    alert("Giusto, hai guadagnato un punto");
+} else {
+    alert("Sbagliato, la risposta corretta era Cristiano Ronaldo");
 }
 
-let risposta2= prompt("chi è il capitano della juve?")
-while(risposta2 === null || risposta1.trim() === ""){
-    risposta2 = prompt("non puoi lasciare vuoto! chi è il capitano della juve?")
+let risposta2 = prompt("Chi è il capitano della Juve?");
+while (risposta2 === null || risposta2.trim() === "") {
+    risposta2 = prompt("Non puoi lasciare vuoto! Chi è il capitano della Juve?");
 }
-if(risposta2.toLowerCase() === "Federico Gatti"){
+if (risposta2.toLowerCase() === "federico gatti") {
     i++;
-    alert("giusto, hai guadagnato un punto")
-}
-else{
-    alert("la risposta corretta era Federico Gatti")
+    alert("Giusto, hai guadagnato un punto");
+} else {
+    alert("La risposta corretta era Federico Gatti");
 }
 
-let risposta3= prompt("chi è il capitano dell'inter?")
-while(risposta3 === null || risposta1.trim() === ""){
-    risposta3 = prompt("non puoi lasciare vuoto! chi è il capitano dell'inter?")
+let risposta3 = prompt("Chi è il capitano dell'Inter?");
+while (risposta3 === null || risposta3.trim() === "") {
+    risposta3 = prompt("Non puoi lasciare vuoto! Chi è il capitano dell'Inter?");
 }
-if(risposta3.toLowerCase() === "Lautaro Martinez"){
+if (risposta3.toLowerCase() === "lautaro martinez") {
     i++;
-    alert("giusto, hai guadagnato un punto")
-}
-else{
-    alert("la risposta corretta era Lautaro Martinez")
+    alert("Giusto, hai guadagnato un punto");
+} else {
+    alert("La risposta corretta era Lautaro Martinez");
 }
 
-let risposta4= prompt("chi è il capitano della roma?")
-while(risposta4 === null || risposta1.trim() === ""){
-    risposta4 = prompt("non puoi lasciare vuoto! chi è il capitano della roma?")
+let risposta4 = prompt("Chi è il capitano della Roma?");
+while (risposta4 === null || risposta4.trim() === "") {
+    risposta4 = prompt("Non puoi lasciare vuoto! Chi è il capitano della Roma?");
 }
-if(risposta4.toLowerCase() === "Lorenzo Pellegrini"){
+if (risposta4.toLowerCase() === "lorenzo pellegrini") {
     i++;
-    alert("giusto, hai guadagnato un punto")
-}
-else{
-    alert("la risposta corretta era Lorenzo Pellegrini")
+    alert("Giusto, hai guadagnato un punto");
+} else {
+    alert("La risposta corretta era Lorenzo Pellegrini");
 }
 
-let risposta5= prompt("chi è il capitano del milan?")
-while(risposta5 === null || risposta1.trim() === ""){
-    risposta5 = prompt("non puoi lasciare vuoto! chi è il capitano del milan?")
+let risposta5 = prompt("Chi è il capitano del Milan?");
+while (risposta5 === null || risposta5.trim() === "") {
+    risposta5 = prompt("Non puoi lasciare vuoto! Chi è il capitano del Milan?");
 }
-if(risposta5.toLowerCase() === "Theo Hernandez"){
+if (risposta5.toLowerCase() === "theo hernandez") {
     i++;
-    alert("giusto, hai guadagnato un punto")
-}
-else{
-    alert("la risposta corretta era Theo Hernandez")
-}
-
-let risposta6= prompt("chi è il capitano della lazio?")
-while(risposta6 === null || risposta1.trim() === ""){
-    risposta6 = prompt("non puoi lasciare vuoto! chi è il capitano della lazio?")
-}
-if(risposta6.toLowerCase() === "Matteo Zaccagni"){
-    let i = i + 1;
-    alert("giusto, hai guadagnato un punto")
-}
-else{
-    alert("la risposta corretta era Matteo Zaccagni")
+    alert("Giusto, hai guadagnato un punto");
+} else {
+    alert("La risposta corretta era Theo Hernandez");
 }
 
-let risposta7= prompt("chi è il capitano del napoli?")
-while(risposta7 === null || risposta1.trim() === ""){
-    risposta7 = prompt("non puoi lasciare vuoto! chi è il capitano del napoli?")
+let risposta6 = prompt("Chi è il capitano della Lazio?");
+while (risposta6 === null || risposta6.trim() === "") {
+    risposta6 = prompt("Non puoi lasciare vuoto! Chi è il capitano della Lazio?");
 }
-if(risposta7.toLowerCase() === "Giovanni Dilorenzo"){
+if (risposta6.toLowerCase() === "matteo zaccagni") {
+    i++;  // Usa l'incremento corretto
+    alert("Giusto, hai guadagnato un punto");
+} else {
+    alert("La risposta corretta era Matteo Zaccagni");
+}
+
+let risposta7 = prompt("Chi è il capitano del Napoli?");
+while (risposta7 === null || risposta7.trim() === "") {
+    risposta7 = prompt("Non puoi lasciare vuoto! Chi è il capitano del Napoli?");
+}
+if (risposta7.toLowerCase() === "giovanni dilorenzo") {
     i++;
-    alert("giusto, hai guadagnato un punto")
+    alert("Giusto, hai guadagnato un punto")
+} else {
+    alert("La risposta corretta era Giovanni Di Lorenzo");
 }
-else{
-    alert("la risposta corretta era Giovanni Dilorenzo")
-}
 
-console.log("complimenti hai ottenuto questo punteggio: " + i); 
-
-
-
+console.log("Complimenti hai ottenuto questo punteggio: " + i);
